@@ -1,0 +1,34 @@
+body {
+    background-color: #5a5a5a;
+}
+
+#wrapper {
+    box-shadow: 0 0 10px 10px rgba(0,0,0, 0.2);
+}
+
+#form_selection {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+#display {
+    border: 1px solid #000000;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.display_item {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2px;
+    max-width: 100%;
+}
+
+#form_selection hr {
+    border: 1px solid #000000;
+}
+
+.involvedInSwap {
+    background-color: #6d0000;
+}

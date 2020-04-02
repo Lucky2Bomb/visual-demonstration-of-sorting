@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Visual demonstration of sorting</title>
+</head>
+<body>
+    <div id="wrapper">
+        <form id="form_selection">
+            <h2>Типы сортировки: </h2>
+            <hr>
+            <input type="number" id="number_countItems" min="10" max="40" value="15"> 
+            <input type="button" value="показать элементы" id="showElements" onclick="showElements_onclick()">
+            <br>
+            <input type="radio" name="aa" id="radio_bubbleSort" checked="true"> 
+            <span>bubble sort</span> <br><br>
+            <input type="button" disabled="true" id="buttonStartSort" value="Начать демонстрацию сортировки" onclick="buttonStartSort_onclick()">
+        </form>
+        <div id="display">
+            
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
